@@ -21,10 +21,12 @@
 
   <div class="col-sm-8 col-sm-offset-2">
     <div style="margin: 20px 0;">
-      <button type="button" class="btn btn-success btn-sm">
+      <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#new-answer-modal">
         Submit new answer
       </button>
     </div>
+
+    <%= render 'home/new_answer_form' %>
 
     <div class="bs-example" data-example-id="default-media">
       <div class="media">
